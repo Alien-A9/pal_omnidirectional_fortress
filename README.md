@@ -18,18 +18,13 @@ git clone https://github.com/Alien-A9/pal_omnidirectional_fortress.git
 ```
 
 ### Step - 2
-Extract the folder
-``` bash
-# Normal Extraction in File Manager or by using Ubuntu's tar
-```
-
-### Step - 3
-Open terminal and navigate to the extracted folder and on step inside
+Open terminal and navigate to the folder and go one step inside
 ``` bash
 cd ~/<path to extracted folder>
 cd pal_omnidirectional_fortress
 ```
 
+### Step - 3
 Verify you are in correct location and you have the `src` folder
 ``` bash
 pwd # Will give a path, it should end with pal_omnidirectional_fortress
