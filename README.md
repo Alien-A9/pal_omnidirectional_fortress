@@ -5,7 +5,7 @@ As the original PAL robotics implemented this in **Gazebo Classic 11** which is 
 ## How to use this Repository?
 This repo contains a simple structure which is **compatible with ROS2 Pkg system** this repo only has `src` bcz when you clone this repo on the local device you can run **Colcon build** to build this package.
 
-## Pre-requisties
+## Prerequisites
 1. Ubuntu 22.04
 2. ROS2 Humble
 3. Gazebo Fortress - Also known as **Ignition** [Gazebo was in Transition to new gen].
