@@ -53,15 +53,15 @@ Source the Package
 source install/setup.bash
 ```
 
-## Now, the packages are built and read to control the Robot
+## Now, the packages are built and ready to control the Robot
 ### Terminal 1 [Follow these if the Terminal in `NEW`]
 1. Source ROS2
 ``` bash
 source /opt/ros/humble/setup.bash
 ```
-2. Source the Package after making sure you are in the ..pal_omnidirectioal_fortress directory
+2. Source the Package after making sure you are in the ..pal_omnidirectional_fortress directory
 ``` bash
-pwd # Should return a path ending with ../pal_omnidirectioal_fortress
+pwd # Should return a path ending with ../pal_omnidirectional_fortress
 source install/setup.bash
 ```
 3. Launch the Gazebo with the **world** and **model**
@@ -70,7 +70,7 @@ ros2 launch pal_omni_fortress sim.launch.py     # Yes the package name is differ
 # Gazebo will get launched
 ```
 
-> NOTE: Verify that Gazebo Fortress is installed before hand.\
+> NOTE: Verify that Gazebo Fortress is installed before hand.
 
 ### Terminal 2
 1. Source ROS2 [Same as in Terminal 1]
